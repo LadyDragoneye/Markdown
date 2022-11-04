@@ -130,6 +130,8 @@ Make Users
 ``passwd codi``
 ``usermod -aG sudo codi``
 
+
+``arch-chroot /mnt``
 Add Color
 ``cp /etc/pacman.conf /etc/pacman.conf.backup``
 ``nano /etc/pacman.conf``
@@ -148,6 +150,9 @@ Enable LXDE
 ``systemctl enable lxdm.service``
 ``nano /etc/lxdm/lxdm.conf``
 Uncomment ``session=/usr/bin/startlxde``
+
+Download ssh
+``pacman -Sy openssh``
 Reboot
 ``exit``
 ``umount -R /mnt``
