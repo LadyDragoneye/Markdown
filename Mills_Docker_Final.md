@@ -130,6 +130,8 @@ Open a browser in the VM and go to the following link
 ``http://localhost:8000/``
 
 *This is what the page should look like*
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/71207177/202337475-5cd6220c-a0ac-4165-b292-5305b86e0d20.png">
+
 
 Enter Ctrl+C to end the application
 
