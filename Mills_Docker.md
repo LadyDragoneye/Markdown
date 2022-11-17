@@ -37,3 +37,7 @@ Verify the installation process
 *The output should look like this*
 
 <img width="960" alt="DockerPic" src="https://user-images.githubusercontent.com/71207177/202327240-023ffc29-0d49-41ad-a11a-944f6db60c20.png">
+
+
+Link to Tutorial used:
+https://www.hostinger.com/tutorials/run-docker-wordpress
