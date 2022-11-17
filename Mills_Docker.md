@@ -8,9 +8,6 @@ Login with chosen username and password
 
 Open a terminal
 
-Update Packages
-```sudo apt update```
-
 Update packages 
 ```sudo apt-get update```
 
