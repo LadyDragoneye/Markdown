@@ -34,6 +34,8 @@ Verify the installation process
 ```sudo docker run hello-world```
 
 *The output should look like this*
+<img width="403" alt="image" src="https://user-images.githubusercontent.com/71207177/202337638-734fccee-9acd-4eeb-adf6-c617d68f57fe.png">
+
 
 
 Run the get_docker.sh script
@@ -52,7 +54,7 @@ Test Docker Compose version
 ```docker compose version```
 
 *Output should look like this:*
-Docker Compose version v2.12.2
+``Docker Compose version v2.12.2``
 
 ## Creating a docker-compose.yml code block
 
