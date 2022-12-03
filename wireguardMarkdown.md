@@ -83,8 +83,11 @@ Start Wireguard
 Run `docker-compose logs -f wireguard`
 
 Open the Wireguard app
+
 Add a tunnel using QR code
+
 Scan the given code
+
 Turn on tunnel
 
 
