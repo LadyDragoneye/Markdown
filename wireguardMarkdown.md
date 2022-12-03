@@ -87,6 +87,12 @@ Add a tunnel using QR code
 Scan the given code
 Turn on tunnel
 
+
+![IMG_8423](https://user-images.githubusercontent.com/71207177/205418360-22fd971c-217e-420f-bf65-a2f911f8a6fa.PNG)
+![IMG_8426](https://user-images.githubusercontent.com/71207177/205418366-23bd99c7-ccc4-46b8-a932-d96176f6ff9e.PNG)
+![IMG_8425](https://user-images.githubusercontent.com/71207177/205418370-cd558b78-a888-4b15-9cd5-3e21506fb3e4.PNG) 
+**The VPN did not work with my current wifi connection. IPLeak.net did not load at all with the VPN on**
+
 ### Test Wireguard
 
 Download Wireguard computer application
@@ -94,6 +100,9 @@ Find and copy the .conf file to an accessible folder
 Add a tunnel with the .conf file
 Activate
 Verify on [IPLeak.net](www.ipleak.net)
+
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/71207177/205418263-394dbd54-cd4d-46e8-9d96-fdc62373c13f.png">
+
 
 
 [Docker_Installation](https://docs.docker.com/engine/install/ubuntu/)
