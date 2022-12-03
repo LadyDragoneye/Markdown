@@ -6,6 +6,8 @@ Open the console
 
 ## Download Docker
 
+Update and install packages
+
 `sudo apt-get update
  sudo apt-get install \
     ca-certificates \
@@ -14,28 +16,34 @@ Open the console
     lsb-release`
 
 Add the GPG key
+
 `sudo mkdir -p /etc/apt/keyrings
  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg`
 
 Set up the Repo
+
 ``echo \
   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
   $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null``
 
 Download the latest version
+
 `sudo apt-get update`
 `sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin docker-compose`
 
 Check the installation
+
 `sudo docker run hello-world`
 
 ## Download WireGuard
 
 Make the directories
+
 `mkdir -p ~/wireguard/`
 `mkdir -p ~/wireguard/config/`
 
 Make the configuration file
+
 `nano ~/wireguard/docker-compose.yml`
 
 Add this to the docker-compose.yml file
@@ -73,6 +81,7 @@ services:
 Edit SERVERURL to the private IP from the DO Droplet
 
 Start Wireguard
+
 `cd ~/wireguard/`
 `docker-compose up -d`
 
@@ -99,9 +108,13 @@ Turn on tunnel
 ### Test Wireguard
 
 Download Wireguard computer application
+
 Find and copy the .conf file to an accessible folder
+
 Add a tunnel with the .conf file
+
 Activate
+
 Verify on [IPLeak.net](www.ipleak.net)
 
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/71207177/205418263-394dbd54-cd4d-46e8-9d96-fdc62373c13f.png">
